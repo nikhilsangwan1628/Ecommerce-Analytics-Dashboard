@@ -33,7 +33,7 @@ This project visualizes key business metrics across **8 dashboard pages**:
 ![Executive Dashboard](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Overview.png)
 
 ### Sales Trends
-![Sales Trends](screenshots/02-sales-trends.png)
+![Sales Trends](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Sales%20Trends.png)
 
 ### Category & Product
 ![Category & Product](screenshots/03-category-product.png)
