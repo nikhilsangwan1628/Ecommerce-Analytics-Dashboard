@@ -1,1 +1,124 @@
-# Ecommerce-Analytics-Dashboard
+# E-commerce Executive Dashboard
+
+An interactive **Power BI** dashboard analyzing e-commerce sales performance — built on a public sample dataset (Kaggle) — covering revenue trends, order status, top-selling categories, customer behavior, delivery performance, and regional sales distribution.
+
+## 📊 Overview
+
+This project visualizes key business metrics across **8 dashboard pages**:
+
+| Page | Focus |
+|---|---|
+| Executive Dashboard | High-level KPIs — revenue, orders, customers, AOV, on-time %, avg rating, YoY growth |
+| Sales Trends | Revenue and order trends over time |
+| Category & Product | Performance by product category |
+| Customer | Customer segmentation and behavior |
+| Delivery & Logistics | Shipping and fulfillment performance |
+| Reviews | Customer ratings and feedback analysis |
+| Payments | Payment method and transaction insights |
+| Seller | Seller-level performance metrics |
+
+## 🚀 Key KPIs (Executive Dashboard)
+
+- **Total Revenue:** 14.21M
+- **Total Orders:** 98.67K
+- **Total Customers:** 95.42K
+- **Average Order Value (AOV):** 144.01
+- **On-Time Delivery:** 93.23%
+- **Average Rating:** 4.03
+- **YoY Growth:** 253.0%
+
+## 🖼️ Screenshots
+
+### Executive Dashboard
+![Executive Dashboard](<img width="1372" height="792" alt="Screenshot 2026-08-05 085428" src="https://github.com/user-attachments/assets/654db388-60ce-4a25-87dd-1b09b98ed1de" />
+)
+
+### Sales Trends
+![Sales Trends](screenshots/02-sales-trends.png)
+
+### Category & Product
+![Category & Product](screenshots/03-category-product.png)
+
+### Customer
+![Customer](screenshots/04-customer.png)
+
+### Delivery & Logistics
+![Delivery & Logistics](screenshots/05-delivery-logistics.png)
+
+### Reviews
+![Reviews](screenshots/06-reviews.png)
+
+### Payments
+![Payments](screenshots/07-payments.png)
+
+### Seller
+![Seller](screenshots/08-seller.png)
+
+## 🔍 Key Insights
+
+- Revenue shows a consistent upward trend across the analyzed period, with growth accelerating in later months.
+- The top 10 categories contribute the majority of total revenue, with the leading category generating ~1.30M.
+- Orders peak early and decline steadily over the year — worth investigating seasonality or demand drop-off.
+- Over 97% of orders complete without status issues, indicating a healthy order fulfillment pipeline.
+- On-time delivery rate (93.23%) and average rating (4.03) suggest generally strong customer satisfaction.
+
+## 🛠️ Tech Stack
+
+- **PostgreSQL** — database used to store, clean, and query the raw dataset (via SQL scripts)
+- **Power BI Desktop** — connects to PostgreSQL, models data, builds DAX measures and visualizations
+- **Dataset:** [Olist Brazilian E-Commerce Dataset]
+- Data cleaning/transformation done partly in SQL (PostgreSQL) and partly in Power Query
+
+## 🏗️ Architecture
+
+```
+Kaggle Dataset (CSV)
+        │
+        ▼
+   PostgreSQL DB   ← data loaded, cleaned, and queried via SQL
+        │
+        ▼
+   Power BI Desktop ← live/import connection to PostgreSQL
+        │
+        ▼
+  Interactive Dashboard (8 pages)
+```
+
+## 📁 Repository Structure
+
+```
+ecommerce-executive-dashboard/
+├── README.md
+├── screenshots/
+├── dataset/             # sample CSV data or link to source
+├── sql/
+│   ├── schema.sql        # table definitions
+│   ├── load_data.sql     # import/load scripts
+│   └── queries.sql       # cleaning & transformation queries
+├── dashboard.pbix         # Power BI file
+└── docs/
+    └── data-dictionary.md
+```
+
+## ▶️ How to Use
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/<your-username>/ecommerce-executive-dashboard.git
+   ```
+2. Set up PostgreSQL:
+   - Create a database, e.g. `ecommerce_db`
+   - Run `sql/schema.sql` to create the tables
+   - Run `sql/load_data.sql` to import the dataset from `dataset/`
+   - (Optional) Run `sql/queries.sql` for cleaning/transformation
+3. Open `dashboard.pbix` in **Power BI Desktop**.
+4. Update the PostgreSQL connection (Home → Transform Data → Data Source Settings) with your local host, port, database name, and credentials.
+5. Click **Refresh** to load data from PostgreSQL into the report.
+
+## 📌 Data Source
+
+Public sample dataset from Kaggle. [Add exact dataset name and link here for attribution.]
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
