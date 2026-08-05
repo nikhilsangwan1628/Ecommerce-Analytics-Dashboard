@@ -30,8 +30,7 @@ This project visualizes key business metrics across **8 dashboard pages**:
 ## 🖼️ Screenshots
 
 ### Executive Dashboard
-![Executive Dashboard](<img width="1372" height="792" alt="Screenshot 2026-08-05 085428" src="https://github.com/user-attachments/assets/654db388-60ce-4a25-87dd-1b09b98ed1de" />
-)
+![Executive Dashboard](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Overview.png)
 
 ### Sales Trends
 ![Sales Trends](screenshots/02-sales-trends.png)
