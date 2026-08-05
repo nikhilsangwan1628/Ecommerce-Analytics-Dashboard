@@ -51,7 +51,7 @@ This project visualizes key business metrics across **8 dashboard pages**:
 ![Payments](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Payment.png)
 
 ### Seller
-![Seller](screenshots/08-seller.png)
+![Seller](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Seller.png)
 
 ## 🔍 Key Insights
 
@@ -77,7 +77,7 @@ Kaggle Dataset (CSV)
    PostgreSQL DB   ← data loaded, cleaned, and queried via SQL
         │
         ▼
-   Power BI Desktop ← live/import connection to PostgreSQL
+   Power BI Desktop ← live connection to PostgreSQL
         │
         ▼
   Interactive Dashboard (8 pages)
@@ -103,7 +103,7 @@ ecommerce-executive-dashboard/
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/<your-username>/ecommerce-executive-dashboard.git
+   git clone https://github.com/<nikhilsangwan1628>/ecommerce-executive-dashboard.git
    ```
 2. Set up PostgreSQL:
    - Create a database, e.g. `ecommerce_db`
@@ -116,8 +116,6 @@ ecommerce-executive-dashboard/
 
 ## 📌 Data Source
 
-Public sample dataset from Kaggle. [Add exact dataset name and link here for attribution.]
+Public sample dataset from Kaggle. [Olist Brazilian E-Commerce Dataset]
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
