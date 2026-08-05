@@ -42,7 +42,7 @@ This project visualizes key business metrics across **8 dashboard pages**:
 ![Customer](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Customer.png)
 
 ### Delivery & Logistics
-![Delivery & Logistics](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Review.png)
+![Delivery & Logistics](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Delivery%20%26%20Logistics.png)
 
 ### Reviews
 ![Reviews](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Review.png)
@@ -99,20 +99,7 @@ ecommerce-executive-dashboard/
     └── data-dictionary.md
 ```
 
-## ▶️ How to Use
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/nikhilsangwan1628/ecommerce-executive-dashboard.git
-   ```
-2. Set up PostgreSQL:
-   - Create a database, e.g. `ecommerce_db`
-   - Run `sql/schema.sql` to create the tables
-   - Run `sql/load_data.sql` to import the dataset from `dataset/`
-   - (Optional) Run `sql/queries.sql` for cleaning/transformation
-3. Open `dashboard.pbix` in **Power BI Desktop**.
-4. Update the PostgreSQL connection (Home → Transform Data → Data Source Settings) with your local host, port, database name, and credentials.
-5. Click **Refresh** to load data from PostgreSQL into the report.
 
 ## 📌 Data Source
 
