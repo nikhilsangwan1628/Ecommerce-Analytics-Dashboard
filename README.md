@@ -103,7 +103,7 @@ ecommerce-executive-dashboard/
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/<nikhilsangwan1628>/ecommerce-executive-dashboard.git
+   git clone https://github.com/nikhilsangwan1628/ecommerce-executive-dashboard.git
    ```
 2. Set up PostgreSQL:
    - Create a database, e.g. `ecommerce_db`
