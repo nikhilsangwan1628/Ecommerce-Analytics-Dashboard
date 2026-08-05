@@ -1,4 +1,4 @@
-# E-commerce Executive Dashboard
+# E-commerce Analytics Dashboard
 
 An interactive **Power BI** dashboard analyzing e-commerce sales performance — built on a public sample dataset (Kaggle) — covering revenue trends, order status, top-selling categories, customer behavior, delivery performance, and regional sales distribution.
 
