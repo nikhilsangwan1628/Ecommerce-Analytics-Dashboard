@@ -42,7 +42,7 @@ This project visualizes key business metrics across **8 dashboard pages**:
 ![Customer](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Customer.png)
 
 ### Delivery & Logistics
-![Delivery & Logistics](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Delivery%20%26%20Logistics.png)
+![Delivery & Logistics](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Review.png)
 
 ### Reviews
 ![Reviews](screenshots/06-reviews.png)
