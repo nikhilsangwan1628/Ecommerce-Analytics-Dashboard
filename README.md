@@ -48,7 +48,7 @@ This project visualizes key business metrics across **8 dashboard pages**:
 ![Reviews](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Review.png)
 
 ### Payments
-![Payments](screenshots/07-payments.png)
+![Payments](https://github.com/nikhilsangwan1628/Ecommerce-Analytics-Dashboard/blob/main/Payment.png)
 
 ### Seller
 ![Seller](screenshots/08-seller.png)
